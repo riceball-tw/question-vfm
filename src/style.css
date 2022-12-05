@@ -1,0 +1,33 @@
+<style>
+.vfm--fixed {
+  position: fixed;
+}
+.vfm--absolute {
+  position: absolute;
+}
+.vfm--inset {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.vfm--overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.vfm--prevent-none {
+  pointer-events: none;
+}
+.vfm--prevent-auto {
+  pointer-events: auto;
+}
+.vfm--outline-none:focus {
+  outline: none;
+}
+.vfm-enter-active,
+.vfm-leave-active {
+  transition: opacity .3s;
+}
+.vfm-enter-from,
+.vfm-leave-to {
+  opacity: 0;
+}
